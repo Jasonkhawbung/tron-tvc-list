@@ -6,16 +6,16 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+      "address": TX4FPHqnXc9r2kJzkScnk7Q5hRPH55Rsua
       "symbol": "TRON",
-      "name": "TRONLINK",
+      "name": "SUNSWAP",
       "decimals": 6,
       "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
       "homepage": "https://winklink.org/",
       "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
       "existingMarkets": [
           {
-              "source": "Binance",
+              "source":SUNSWAP
               "pairs": [
                   "WIN/USDT",
                   "WIN/BUSD",
@@ -30,19 +30,19 @@ Follow the steps below to add a new token：
               ]
           },
           {
-              "source": "KuCoin",
-              "pairs": [
-                  "WIN/USDT"
+              "source": "TRONSCAN.IO",
+              "pairs":TRC20
+                  "
               ]
           }
     ]
 }
 ```
-* `address'[Required]:TLtTyEwqacNKc5CHLunKvxmqLB336R4Lrm
-* `symbol`[Required]:SUNSwap
-* `name`[Required]: Tron
+* `address'[Required]:TX4FPHqnXc9r2kJzkScnk7Q5hRPH55Rsua
+* `symbol`[Required]:TRC20
+* `name`[Required]: SUNSWAP
 * `logoURI`[Required]: https://forum.sun.io/c/8-category/8
-* `homepage`[Required]:SUNPUMP
+* `homepage`[Required]:SUNSWAP
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: https://forum.sun.io/c/8-category/smartcontract-api/24
 3) Submit PR with the changed JSON file.
